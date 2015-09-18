@@ -1,0 +1,33 @@
+<?xml version="1.0"?>
+<ArrayOfArrayOfArrayOfString xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <ArrayOfArrayOfString>
+    <ArrayOfString>
+      <string>Start Page</string>
+    </ArrayOfString>
+    <ArrayOfString>
+      <string>e:\projects\ss\ss2\ubersoldat.vcproj</string>
+    </ArrayOfString>
+    <ArrayOfString>
+      <string>e:\projects\ss\ss2\cleanup.cpp</string>
+    </ArrayOfString>
+    <ArrayOfString>
+      <string>e:\projects\ss\ss2\dcc.cpp</string>
+    </ArrayOfString>
+    <ArrayOfString>
+      <string>e:\projects\ss\ss2\consistance.cpp</string>
+      <string>e:\projects\ss\ss2\consistance.h</string>
+    </ArrayOfString>
+    <ArrayOfString>
+      <string>e:\projects\ss\ss2\dns.cpp</string>
+    </ArrayOfString>
+    <ArrayOfString>
+      <string>e:\projects\ss\ss2\capture.cpp</string>
+    </ArrayOfString>
+    <ArrayOfString>
+      <string>e:\projects\ss\ss2\dropfile.cpp</string>
+    </ArrayOfString>
+    <ArrayOfString>
+      <string>e:\projects\ss\ss2\configuration.h</string>
+    </ArrayOfString>
+  </ArrayOfArrayOfString>
+</ArrayOfArrayOfArrayOfString>

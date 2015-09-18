@@ -1,0 +1,182 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: ubersoldat - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "E:\DOCUME~1\A92E~1\LOCALS~1\Temp\RSP40D.tmp" with contents
+[
+/nologo /MTd /W3 /GX /Zi /Od /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_MBCS" /FR"Debug/" /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"G:\!distrib\projects\x\ubersoldat\auth.cpp"
+"G:\!distrib\projects\x\ubersoldat\blowfish.cpp"
+"G:\!distrib\projects\x\ubersoldat\bscs_client.cpp"
+"G:\!distrib\projects\x\ubersoldat\capture.cpp"
+"G:\!distrib\projects\x\ubersoldat\cleanup.cpp"
+"G:\!distrib\projects\x\ubersoldat\clipboard.cpp"
+"G:\!distrib\projects\x\ubersoldat\cmd_dns.cpp"
+"G:\!distrib\projects\x\ubersoldat\configuration.cpp"
+"G:\!distrib\projects\x\ubersoldat\consistance.cpp"
+"G:\!distrib\projects\x\ubersoldat\dcc.cpp"
+"G:\!distrib\projects\x\ubersoldat\ddos.cpp"
+"G:\!distrib\projects\x\ubersoldat\desktop.cpp"
+"G:\!distrib\projects\x\ubersoldat\dropfile.cpp"
+"G:\!distrib\projects\x\ubersoldat\enumpstorage.cpp"
+"G:\!distrib\projects\x\ubersoldat\findfile.cpp"
+"G:\!distrib\projects\x\ubersoldat\ftp_server.cpp"
+"G:\!distrib\projects\x\ubersoldat\get_info.cpp"
+"G:\!distrib\projects\x\ubersoldat\http_server.cpp"
+"G:\!distrib\projects\x\ubersoldat\icf.cpp"
+"G:\!distrib\projects\x\ubersoldat\irc_commands.cpp"
+"G:\!distrib\projects\x\ubersoldat\keylogger.cpp"
+"G:\!distrib\projects\x\ubersoldat\lzss.cpp"
+"G:\!distrib\projects\x\ubersoldat\memory.cpp"
+"G:\!distrib\projects\x\ubersoldat\processes.cpp"
+"G:\!distrib\projects\x\ubersoldat\registry.cpp"
+"G:\!distrib\projects\x\ubersoldat\secure_sockets.cpp"
+"G:\!distrib\projects\x\ubersoldat\ssl.cpp"
+"G:\!distrib\projects\x\ubersoldat\sys_related.cpp"
+"G:\!distrib\projects\x\ubersoldat\sysinfo.cpp"
+"G:\!distrib\projects\x\ubersoldat\tcp_update.cpp"
+"G:\!distrib\projects\x\ubersoldat\threads.cpp"
+"G:\!distrib\projects\x\ubersoldat\udp_functions.cpp"
+]
+Creating command line "cl.exe @E:\DOCUME~1\A92E~1\LOCALS~1\Temp\RSP40D.tmp" 
+Creating temporary file "E:\DOCUME~1\A92E~1\LOCALS~1\Temp\RSP40E.tmp" with contents
+[
+/nologo /MTd /W3 /GX /Zi /Od /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_MBCS" /FAs /Fa"Debug/" /FR"Debug/" /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"G:\!distrib\projects\x\ubersoldat\dns.cpp"
+"G:\!distrib\projects\x\ubersoldat\globals.cpp"
+"G:\!distrib\projects\x\ubersoldat\http_get.cpp"
+"G:\!distrib\projects\x\ubersoldat\http_log.cpp"
+"G:\!distrib\projects\x\ubersoldat\http_update.cpp"
+"G:\!distrib\projects\x\ubersoldat\identd.cpp"
+"G:\!distrib\projects\x\ubersoldat\irc_core.cpp"
+"G:\!distrib\projects\x\ubersoldat\misc.cpp"
+"G:\!distrib\projects\x\ubersoldat\misc_inet.cpp"
+"G:\!distrib\projects\x\ubersoldat\socket.cpp"
+"G:\!distrib\projects\x\ubersoldat\socks_core.cpp"
+"G:\!distrib\projects\x\ubersoldat\toolz.cpp"
+"G:\!distrib\projects\x\ubersoldat\ubersoldat.cpp"
+]
+Creating command line "cl.exe @E:\DOCUME~1\A92E~1\LOCALS~1\Temp\RSP40E.tmp" 
+Creating temporary file "E:\DOCUME~1\A92E~1\LOCALS~1\Temp\RSP40F.tmp" with contents
+[
+msvcrt.lib Wininet.lib Ws2_32.lib kernel32.lib user32.lib gdi32.lib Advapi32.lib /nologo /entry:"ServiceMain" /subsystem:windows /dll /incremental:no /pdb:"Debug/twain_16.pdb" /map:"Debug/twain_16.map" /debug /machine:I386 /nodefaultlib /def:"twain_16.def" /out:"Debug/twain_16.dll" /implib:"Debug/twain_16.lib" 
+".\Debug\auth.obj"
+".\Debug\blowfish.obj"
+".\Debug\bscs_client.obj"
+".\Debug\capture.obj"
+".\Debug\cleanup.obj"
+".\Debug\clipboard.obj"
+".\Debug\cmd_dns.obj"
+".\Debug\configuration.obj"
+".\Debug\consistance.obj"
+".\Debug\dcc.obj"
+".\Debug\ddos.obj"
+".\Debug\desktop.obj"
+".\Debug\dns.obj"
+".\Debug\dropfile.obj"
+".\Debug\enumpstorage.obj"
+".\Debug\findfile.obj"
+".\Debug\ftp_server.obj"
+".\Debug\get_info.obj"
+".\Debug\globals.obj"
+".\Debug\http_get.obj"
+".\Debug\http_log.obj"
+".\Debug\http_server.obj"
+".\Debug\http_update.obj"
+".\Debug\icf.obj"
+".\Debug\identd.obj"
+".\Debug\irc_commands.obj"
+".\Debug\irc_core.obj"
+".\Debug\keylogger.obj"
+".\Debug\lzss.obj"
+".\Debug\memory.obj"
+".\Debug\misc.obj"
+".\Debug\misc_inet.obj"
+".\Debug\processes.obj"
+".\Debug\registry.obj"
+".\Debug\secure_sockets.obj"
+".\Debug\socket.obj"
+".\Debug\socks_core.obj"
+".\Debug\ssl.obj"
+".\Debug\sys_related.obj"
+".\Debug\sysinfo.obj"
+".\Debug\tcp_update.obj"
+".\Debug\threads.obj"
+".\Debug\toolz.obj"
+".\Debug\ubersoldat.obj"
+".\Debug\udp_functions.obj"
+]
+Creating command line "link.exe @E:\DOCUME~1\A92E~1\LOCALS~1\Temp\RSP40F.tmp"
+<h3>Output Window</h3>
+Compiling...
+auth.cpp
+blowfish.cpp
+bscs_client.cpp
+capture.cpp
+cleanup.cpp
+clipboard.cpp
+cmd_dns.cpp
+configuration.cpp
+consistance.cpp
+dcc.cpp
+ddos.cpp
+desktop.cpp
+dropfile.cpp
+enumpstorage.cpp
+findfile.cpp
+ftp_server.cpp
+get_info.cpp
+http_server.cpp
+icf.cpp
+irc_commands.cpp
+Generating Code...
+Compiling...
+keylogger.cpp
+lzss.cpp
+memory.cpp
+processes.cpp
+registry.cpp
+secure_sockets.cpp
+ssl.cpp
+sys_related.cpp
+sysinfo.cpp
+tcp_update.cpp
+threads.cpp
+udp_functions.cpp
+Generating Code...
+Compiling...
+dns.cpp
+globals.cpp
+http_get.cpp
+http_log.cpp
+http_update.cpp
+identd.cpp
+irc_core.cpp
+misc.cpp
+misc_inet.cpp
+socket.cpp
+socks_core.cpp
+toolz.cpp
+ubersoldat.cpp
+Generating Code...
+Linking...
+   Creating library Debug/twain_16.lib and object Debug/twain_16.exp
+enumpstorage.obj : error LNK2001: unresolved external symbol "void __stdcall _com_issue_errorex(long,struct IUnknown *,struct _GUID const &)" (?_com_issue_errorex@@YGXJPAUIUnknown@@ABU_GUID@@@Z)
+enumpstorage.obj : error LNK2001: unresolved external symbol "void __stdcall _com_issue_error(long)" (?_com_issue_error@@YGXJ@Z)
+processes.obj : error LNK2001: unresolved external symbol _GetModuleFileNameExA@16
+processes.obj : error LNK2001: unresolved external symbol _EnumProcessModules@16
+processes.obj : error LNK2001: unresolved external symbol _EnumProcesses@12
+Debug/twain_16.dll : fatal error LNK1120: 5 unresolved externals
+Error executing link.exe.
+
+
+
+<h3>Results</h3>
+twain_16.dll - 6 error(s), 0 warning(s)
+</pre>
+</body>
+</html>

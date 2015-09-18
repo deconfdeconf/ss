@@ -1,0 +1,18 @@
+﻿Build started 07.09.2014 14:16:57.
+     1>Project "E:\projects\ss\loader\loader.vcxproj" on node 2 (Build target(s)).
+     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.CppBuild.targets(1193,5): warning MSB8012: TargetPath(E:\projects\ss\loader\.\loader___Win32_Full_Release\loader.exe) does not match the Linker's OutputFile property value (c:\temp\loader.exe). This may cause your project to build incorrectly. To correct this, please make sure that $(OutDir), $(TargetName) and $(TargetExt) property values match the value specified in %(Link.OutputFile).
+     1>Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"c:\temp\loader.exe" /INCREMENTAL:NO /NOLOGO msvcrt.lib psapi.lib ws2_32.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /NODEFAULTLIB /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /PDB:".\loader___Win32_Full_Release\loader.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /ENTRY:"_WinMain" /DYNAMICBASE:NO /MACHINE:X86 /SAFESEH .\loader___Win32_Full_Release/debug.obj
+         .\loader___Win32_Full_Release/dumpofbot.obj
+         .\loader___Win32_Full_Release/inet.obj
+         .\loader___Win32_Full_Release/loader.obj
+         .\loader___Win32_Full_Release/misc.obj
+         .\loader___Win32_Full_Release/processes.obj
+         .\loader___Win32_Full_Release/service.obj
+         .\loader___Win32_Full_Release/windows.obj
+         loader.vcxproj -> E:\projects\ss\loader\.\loader___Win32_Full_Release\loader.exe
+     1>Done Building Project "E:\projects\ss\loader\loader.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:00.24

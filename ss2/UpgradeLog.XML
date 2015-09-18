@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet type='text/xsl' href='_UpgradeReport_Files/UpgradeReport.xslt'?><UpgradeLog>
+<Properties><Property Name="Solution" Value="ubersoldat">
+</Property><Property Name="Solution File" Value="E:\!code\ss\ss2\ubersoldat.sln">
+</Property><Property Name="User Options File" Value="E:\!code\ss\ss2\ubersoldat.v11.suo">
+</Property><Property Name="Date" Value="11 июня 2012 г.">
+</Property><Property Name="Time" Value="1:26">
+</Property></Properties><Event ErrorLevel="3" Project="" Source="ubersoldat.sln" Description="SafeUpgrade">
+</Event><Event ErrorLevel="0" Project="" Source="ubersoldat.sln" Description="File successfully backed up as E:\!code\ss\ss2\Backup\ubersoldat.sln">
+</Event><Event ErrorLevel="0" Project="" Source="ubersoldat.v11.suo" Description="File successfully backed up as E:\!code\ss\ss2\Backup\ubersoldat.v11.suo">
+</Event><Event ErrorLevel="3" Project="hk" Source="..\hk\hk.dsp" Description="OneWayUpgrade">
+</Event><Event ErrorLevel="1" Project="hk" Source="..\hk\hk.dsp" Description="Warning: The project file is being backed up to a relative path that differs from the original solution relative path.  The difference in folder hierarchy may create problems in opening or building the backed up solution and project.">
+</Event><Event ErrorLevel="0" Project="hk" Source="..\hk\hk.dsp" Description="Converting project file 'E:\!code\ss\hk\hk.dsp'.">
+</Event><Event ErrorLevel="0" Project="hk" Source="..\hk\hk.dsp" Description="Done converting to new project file 'E:\!code\ss\hk\hk.vcxproj'.">
+</Event><Event ErrorLevel="3" Project="hk" Source="..\hk\hk.dsp" Description="Converted">
+</Event><Event ErrorLevel="3" Project="ubersoldat" Source="ubersoldat.dsp" Description="OneWayUpgrade">
+</Event><Event ErrorLevel="0" Project="ubersoldat" Source="ubersoldat.dsp" Description="Converting project file 'E:\!code\ss\ss2\ubersoldat.dsp'.">
+</Event><Event ErrorLevel="0" Project="ubersoldat" Source="ubersoldat.dsp" Description="Done converting to new project file 'E:\!code\ss\ss2\ubersoldat.vcxproj'.">
+</Event><Event ErrorLevel="3" Project="ubersoldat" Source="ubersoldat.dsp" Description="Converted">
+</Event><Event ErrorLevel="0" Project="" Source="ubersoldat.sln" Description="Solution converted successfully">
+</Event><Event ErrorLevel="3" Project="" Source="ubersoldat.sln" Description="Converted">
+</Event></UpgradeLog>

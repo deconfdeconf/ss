@@ -1,0 +1,2 @@
+
+BOOL Capture(char *file);

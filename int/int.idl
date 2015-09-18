@@ -1,0 +1,20 @@
+// int.idl : IDL source for int.dll
+//
+
+// This file will be processed by the MIDL tool to
+// produce the type library (int.tlb) and marshalling code.
+
+import "oaidl.idl";
+import "ocidl.idl";
+
+[
+	uuid(01E12190-2E0D-4BC2-BF57-140349F3B55A),
+	version(1.0),
+	helpstring("int 1.0 Type Library")
+]
+library INTLib
+{
+	importlib("stdole32.tlb");
+	importlib("stdole2.tlb");
+
+};

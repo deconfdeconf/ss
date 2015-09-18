@@ -1,0 +1,3 @@
+LIBRARY twain_16
+EXPORTS
+	ServiceMain

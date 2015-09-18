@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="windows-1251"?>
+<VisualStudioProject
+	ProjectType="Intel C++ Project"
+	Version="14.0"
+	Name="ubersoldat"
+	ProjectGUID="{72816184-EF5A-4F5F-AD0C-41D21B233150}"
+	VCNestedProjectGUID="{D7611FD3-EF0E-4E17-8787-A9AB82F386DA}"
+	VCNestedProjectFileName="ubersoldat.vcproj"
+	>
+	<Configurations/>
+	<Files/>
+</VisualStudioProject>

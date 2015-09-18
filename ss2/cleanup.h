@@ -1,0 +1,1 @@
+void cleanup_loader_shit(void);

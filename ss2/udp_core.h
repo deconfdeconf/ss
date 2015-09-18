@@ -1,0 +1,7 @@
+/* ubersoldat messages descriptions */
+
+
+
+
+
+

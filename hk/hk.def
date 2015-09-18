@@ -1,0 +1,4 @@
+LIBRARY hk
+EXPORTS
+	KeyProc
+	xHook

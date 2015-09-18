@@ -1,0 +1,27 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: hk - Win32 Full Release--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\DOCUME~1\A92E~1\LOCALS~1\Temp\RSP1B.tmp" with contents
+[
+msvcrt.lib kernel32.lib user32.lib gdi32.lib /nologo /entry:"DllMain" /subsystem:windows /dll /incremental:no /pdb:"hk___Win32_Full_Release/hk.pdb" /map:"hk___Win32_Full_Release/hk.map" /machine:I386 /nodefaultlib /def:"hk.def" /out:"m:\temp\ubersoldat\hk.dll" /implib:"hk___Win32_Full_Release/hk.lib" 
+.\hk___Win32_Full_Release\debug.obj
+.\hk___Win32_Full_Release\desktop.obj
+.\hk___Win32_Full_Release\hk.obj
+]
+Creating command line "link.exe @C:\DOCUME~1\A92E~1\LOCALS~1\Temp\RSP1B.tmp"
+<h3>Output Window</h3>
+Linking...
+   Creating library hk___Win32_Full_Release/hk.lib and object hk___Win32_Full_Release/hk.exp
+
+
+
+<h3>Results</h3>
+hk.dll - 0 error(s), 0 warning(s)
+</pre>
+</body>
+</html>

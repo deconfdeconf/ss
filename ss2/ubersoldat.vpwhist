@@ -1,0 +1,137 @@
+[Global]
+CurrentProject=ubersoldat.vpj
+[ActiveConfig]
+hexor\hexor.vpj=,CFG=hexor - Win32 Debug
+..\hk\hk.vpj=
+int\int.vpj=,CFG=int - Win32 Unicode Debug
+loader\loader.vpj=,CFG=loader - Win32 Debug
+ubersoldat.vpj=,CFG=ubersoldat - Win32 Debug
+[ProjectDates]
+hexor\hexor.dsp=20041025095504000
+..\hk\hk.dsp=
+int\int.dsp=20040828183232000
+loader\loader.dsp=20090613173332000
+ubersoldat.dsp=20090614190118000
+[TreeExpansion2]
+- hexor\hexor.dsp
+  - Source Files
+    - hexor\hexor.cpp
+    - hexor\hexor.rc
+    - hexor\hexorDlg.cpp
+    - hexor\StdAfx.cpp
+  + Header Files
+    - hexor\hexor.h
+    - hexor\hexorDlg.h
+    - hexor\Resource.h
+    - hexor\StdAfx.h
+  + Resource Files
+    - hexor\res\hexor.ico
+    - hexor\res\hexor.rc2
+- ..\hk\hk.dsp
++ int\int.dsp
++ loader\loader.dsp
+- ubersoldat.dsp
+  - dump_of_hk.txt
+  + Header Files
+    - auth.h
+    - blowfish.h
+    - bscs_client.h
+    - capture.h
+    - cleanup.h
+    - clipboard.h
+    - cmd_dns.h
+    - configuration.h
+    - consistance.h
+    - dcc.h
+    - ddos.h
+    - enumpstorage.h
+    - extern.h
+    - findfile.h
+    - ftp_server.h
+    - host_conf.h
+    - http_server.h
+    - icf.h
+    - keylogger.h
+    - lzss.h
+    - memory.h
+    - misc.h
+    - misc_inet.h
+    - processes.h
+    - registry.h
+    - secure_sockets.h
+    - socks_core.h
+    - ssl.h
+    - StdAfx.h
+    - tcp_update.h
+    - threads.h
+    - udp_functions.h
+    - version.h
+  - irc_commands.txt
+  - Source Files
+    - auth.cpp
+    - blowfish.cpp
+    - bscs_client.cpp
+    - capture.cpp
+    - cleanup.cpp
+    - clipboard.cpp
+    - cmd_dns.cpp
+    - configuration.cpp
+    - consistance.cpp
+    - dcc.cpp
+    - ddos.cpp
+    - desktop.cpp
+    - dns.cpp
+    - dropfile.cpp
+    - enumpstorage.cpp
+    - findfile.cpp
+    - ftp_server.cpp
+    - get_info.cpp
+    - globals.cpp
+    - http_get.cpp
+    - http_log.cpp
+    - http_server.cpp
+    - http_update.cpp
+    - icf.cpp
+    - identd.cpp
+    - irc_commands.cpp
+    - irc_core.cpp
+    - keylogger.cpp
+    - lzss.cpp
+    - memory.cpp
+    - misc.cpp
+    - misc_inet.cpp
+    - processes.cpp
+    - registry.cpp
+    - secure_sockets.cpp
+    - socket.cpp
+    - socks_core.cpp
+    - ssl.cpp
+    - sys_related.cpp
+    - sysinfo.cpp
+    - tcp_update.cpp
+    - threads.cpp
+    - toolz.cpp
+    - ubersoldat.cpp
+    - udp_functions.cpp
+  - todo.txt
+scroll:16
+[State]
+SCREEN: 1360 768 44 44 1020 558 0 0 M 0 0 0 0 1054 454 0
+CWD: ..\ubersoldat
+BUFFER: BN="hexor\hexor.cpp"
+BI: MA=1 74 1  TABS=1 5  WWS=1 IWT=0 ST=0 IN=2 BW=0 US=32000 RO=0 SE=1 SN=0 BIN=0 MN=C/C++	HM=0 MF=608 TL=0 MLL=0 ASE=0 LNL=1 LCF=0 CAPS=0 E=0 ESBU2=-1 CL="" SC="" SCE= SCU=
+VIEW: LN=.1052 CL=36 LE=0 CX=36 CY=19 WI=5 BI=24 HT=0 HN=0 HF=0 HC=4
+BUFFER: BN="enumpstorage.cpp"
+BI: MA=1 74 1  TABS=1 5  WWS=1 IWT=0 ST=0 IN=2 BW=0 US=32000 RO=0 SE=1 SN=0 BIN=0 MN=C/C++	HM=0 MF=608 TL=0 MLL=0 ASE=0 LNL=1 LCF=0 CAPS=0 E=0 ESBU2=-1 CL="" SC="" SCE= SCU=
+VIEW: LN=.0 CL=1 LE=0 CX=1 CY=0 WI=5 BI=25 HT=0 HN=0 HF=0 HC=4
+WINDOW: 0 0 816 317 -1 -1 N  WF=0 WT=1 ",,,"
+BUFFER: BN="hexor\hexor.cpp"
+VIEW: LN=.1052 CL=36 LE=0 CX=37 CY=19 WI=305 BI=24 HT=0 HN=0 HF=0 HC=4
+WINDOW: 19 22 816 317 -1 -1 M  WF=0 WT=3 ",,,"
+BUFFER: BN="enumpstorage.cpp"
+VIEW: LN=.1285 CL=5 LE=0 CX=6 CY=21 WI=316 BI=25 HT=0 HN=0 HF=0 HC=4
+FILEHIST: 2
+hexor\hexor.cpp
+enumpstorage.cpp
+PROJECT_CACHE: 0
+TBCLASS: 0 0

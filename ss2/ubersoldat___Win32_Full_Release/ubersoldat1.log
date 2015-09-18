@@ -1,0 +1,64 @@
+﻿Build started 07.09.2014 15:42:26.
+     1>Project "E:\projects\ss\ss2\ubersoldat1.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /Zi /nologo /W3 /WX- /O1 /Os /Oy /GL /D WIN32 /D NDEBUG /D FRELEASE /D _VC80_UPGRADE=0x0600 /D _WINDLL /GF /Gm- /EHsc /MD /Zp1 /GS- /Gy /fp:fast /Zc:wchar_t /Zc:forScope /GR- /Fo".\ubersoldat___Win32_Full_Release/" /Fd".\ubersoldat___Win32_Full_Release/vc120.pdb" /Gd /TP /analyze- /errorReport:prompt /Gs /GA  processes.cpp
+         processes.cpp
+     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.CppBuild.targets(1193,5): warning MSB8012: TargetPath(E:\projects\ss\ss2\..\ss\ubersoldat.dll) does not match the Linker's OutputFile property value (E:\projects\ss\ss2\DLL\twain_16.dll). This may cause your project to build incorrectly. To correct this, please make sure that $(OutDir), $(TargetName) and $(TargetExt) property values match the value specified in %(Link.OutputFile).
+     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.CppBuild.targets(1195,5): warning MSB8012: TargetName(ubersoldat) does not match the Linker's OutputFile property value (twain_16). This may cause your project to build incorrectly. To correct this, please make sure that $(OutDir), $(TargetName) and $(TargetExt) property values match the value specified in %(Link.OutputFile).
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"./DLL/twain_16.dll" /INCREMENTAL:NO /NOLOGO psapi.lib comsupp.lib oleaut32.lib Kernel32.lib MSVCRT.LIB Wininet.lib Ws2_32.lib User32.lib Advapi32.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /DEF:"twain_16.def" /MANIFEST:NO /PDB:"..\ss\ubersoldat.pdb" /MAP:"d:\temp\ubersoldat\twain_16.map" /SUBSYSTEM:WINDOWS /STACK:"4194304" /OPT:REF /OPT:ICF /TLBID:1 /ENTRY:"DllMain" /DYNAMICBASE /NOASSEMBLY /IMPLIB:".\ubersoldat___Win32_Full_Release/twain_16.lib" /MACHINE:X86 /SAFESEH /DLL .\ubersoldat___Win32_Full_Release/auth.obj
+         .\ubersoldat___Win32_Full_Release/blowfish.obj
+         .\ubersoldat___Win32_Full_Release/bscs_client.obj
+         .\ubersoldat___Win32_Full_Release/capture.obj
+         .\ubersoldat___Win32_Full_Release/cleanup.obj
+         .\ubersoldat___Win32_Full_Release/clipboard.obj
+         .\ubersoldat___Win32_Full_Release/cmd_dns.obj
+         .\ubersoldat___Win32_Full_Release/configuration.obj
+         .\ubersoldat___Win32_Full_Release/consistance.obj
+         .\ubersoldat___Win32_Full_Release/dcc.obj
+         .\ubersoldat___Win32_Full_Release/ddos.obj
+         .\ubersoldat___Win32_Full_Release/desktop.obj
+         .\ubersoldat___Win32_Full_Release/dns.obj
+         .\ubersoldat___Win32_Full_Release/dropfile.obj
+         .\ubersoldat___Win32_Full_Release/enumpstorage.obj
+         .\ubersoldat___Win32_Full_Release/findfile.obj
+         .\ubersoldat___Win32_Full_Release/ftp_server.obj
+         .\ubersoldat___Win32_Full_Release/get_info.obj
+         .\ubersoldat___Win32_Full_Release/globals.obj
+         .\ubersoldat___Win32_Full_Release/http_get.obj
+         .\ubersoldat___Win32_Full_Release/http_log.obj
+         .\ubersoldat___Win32_Full_Release/http_server.obj
+         .\ubersoldat___Win32_Full_Release/http_update.obj
+         .\ubersoldat___Win32_Full_Release/icf.obj
+         .\ubersoldat___Win32_Full_Release/identd.obj
+         .\ubersoldat___Win32_Full_Release/irc_commands.obj
+         .\ubersoldat___Win32_Full_Release/irc_core.obj
+         .\ubersoldat___Win32_Full_Release/keylogger.obj
+         .\ubersoldat___Win32_Full_Release/lzss.obj
+         .\ubersoldat___Win32_Full_Release/memory.obj
+         .\ubersoldat___Win32_Full_Release/misc.obj
+         .\ubersoldat___Win32_Full_Release/misc_inet.obj
+         .\ubersoldat___Win32_Full_Release/processes.obj
+         .\ubersoldat___Win32_Full_Release/registry.obj
+         .\ubersoldat___Win32_Full_Release/secure_sockets.obj
+         .\ubersoldat___Win32_Full_Release/socket.obj
+         .\ubersoldat___Win32_Full_Release/socks_core.obj
+         .\ubersoldat___Win32_Full_Release/ssl.obj
+         .\ubersoldat___Win32_Full_Release/sysinfo.obj
+         .\ubersoldat___Win32_Full_Release/sys_related.obj
+         .\ubersoldat___Win32_Full_Release/tcp_update.obj
+         .\ubersoldat___Win32_Full_Release/threads.obj
+         .\ubersoldat___Win32_Full_Release/toolz.obj
+         .\ubersoldat___Win32_Full_Release/ubersoldat.obj
+         .\ubersoldat___Win32_Full_Release/udp_functions.obj
+         auth.obj : MSIL .netmodule or module compiled with /GL found; restarting link with /LTCG; add /LTCG to the link command line to improve linker performance
+            Creating library .\ubersoldat___Win32_Full_Release/twain_16.lib and object .\ubersoldat___Win32_Full_Release/twain_16.exp
+     1>processes.obj : error LNK2001: unresolved external symbol _K32EnumProcessModules@16
+     1>processes.obj : error LNK2001: unresolved external symbol _K32GetModuleFileNameExA@16
+     1>processes.obj : error LNK2001: unresolved external symbol _K32EnumProcesses@12
+     1>./DLL/twain_16.dll : fatal error LNK1120: 3 unresolved externals
+     1>Done Building Project "E:\projects\ss\ss2\ubersoldat1.vcxproj" (Build target(s)) -- FAILED.
+
+Build FAILED.
+
+Time Elapsed 00:00:01.17

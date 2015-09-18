@@ -1,0 +1,27 @@
+Важно:
+socks не работает
+ключи не пишуца
+файл-сервер по tcp не работают  пути (правые хуйни)
+radmin
+
+не качаются файлы дсс, сделать с помощью ПОСТ для этого поколения
+сброс всех кукисов в запакованном виде
+не работает при фаерволле - нужна иньекция кода
+
+
+сделать тихий поиск файлов по маске  - fixed
+файл-сервер по udp  - fixed
+автоапдейт (!)  - fixed
+-- crypt settings in registry - fixed
+-- SYN is NOT working  - fixed
+-- patch for sp2 systems to workaround connection limit
+-- implement .set, ability to set
+ 1) ddos_threads
+-- .ip, .math *pattern*
+-- loader should eleminate av/fw on startup
+Errors:
+-- threads not stopping/ending/terminating - fixed
+
+
+intel comp
+/G7 /Qms0  /GA /c 

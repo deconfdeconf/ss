@@ -1,0 +1,2 @@
+ intel comp
+ /G7 /Qms0 /Qprefetch- /GF /Qvc6 /Gs /GA /c 

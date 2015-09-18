@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 10.00
+# Visual Studio 2008
+Project("{059D6162-CD51-11D0-AE1F-00A0C90FFFC3}") = "hexor", "hexor\hexor.dsp", "{8CAB3549-F0F4-464C-9913-A4CF5EB5F9BC}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "hk", "..\hk\hk.vcproj", "{0D9A2A5B-EA44-4C75-9D1B-D9CECE7B290F}"
+EndProject
+Project("{059D6162-CD51-11D0-AE1F-00A0C90FFFC3}") = "int", "int\int.dsp", "{C86A57FD-235C-499B-BDC9-02171320B6C4}"
+EndProject
+Project("{059D6162-CD51-11D0-AE1F-00A0C90FFFC3}") = "loader", "loader\loader.dsp", "{C7B5F396-16FB-48CB-BB1D-FFFB0D99BE0F}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "ubersoldat", "ubersoldat.vcproj", "{7F253A6F-4EDA-47EC-82EF-E877A29BB374}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Full Release|Win32 = Full Release|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{0D9A2A5B-EA44-4C75-9D1B-D9CECE7B290F}.Debug|Win32.ActiveCfg = Debug|Win32
+		{0D9A2A5B-EA44-4C75-9D1B-D9CECE7B290F}.Debug|Win32.Build.0 = Debug|Win32
+		{0D9A2A5B-EA44-4C75-9D1B-D9CECE7B290F}.Full Release|Win32.ActiveCfg = Full Release|Win32
+		{0D9A2A5B-EA44-4C75-9D1B-D9CECE7B290F}.Full Release|Win32.Build.0 = Full Release|Win32
+		{0D9A2A5B-EA44-4C75-9D1B-D9CECE7B290F}.Release|Win32.ActiveCfg = Release|Win32
+		{0D9A2A5B-EA44-4C75-9D1B-D9CECE7B290F}.Release|Win32.Build.0 = Release|Win32
+		{7F253A6F-4EDA-47EC-82EF-E877A29BB374}.Debug|Win32.ActiveCfg = Debug|Win32
+		{7F253A6F-4EDA-47EC-82EF-E877A29BB374}.Debug|Win32.Build.0 = Debug|Win32
+		{7F253A6F-4EDA-47EC-82EF-E877A29BB374}.Full Release|Win32.ActiveCfg = Full Release|Win32
+		{7F253A6F-4EDA-47EC-82EF-E877A29BB374}.Full Release|Win32.Build.0 = Full Release|Win32
+		{7F253A6F-4EDA-47EC-82EF-E877A29BB374}.Release|Win32.ActiveCfg = Release|Win32
+		{7F253A6F-4EDA-47EC-82EF-E877A29BB374}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
