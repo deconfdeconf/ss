@@ -1,3 +1,4 @@
+gcc -DGO_VIA_CO_UR_T ubersoldat.cpp -o u.a
 all:
 	@erase *.o
 	gcc -Os -c ubersoldat.cpp
